@@ -35,6 +35,16 @@
         'name': 'meta.parameter.knitr'
       }
       {
+        'begin': '"'
+        'end': '"'
+        'name': 'string.quoted.double.knitr'
+      }
+      {
+        'begin': '\''
+        'end': '\''
+        'name': 'string.quoted.double.knitr'
+      }
+      {
         'match': '[\\w.]+'
         'name': 'string.unquoted.label.knitr'
       }
